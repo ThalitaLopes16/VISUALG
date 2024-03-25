@@ -1,0 +1,44 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Thalita Lopes Ferreira
+// Data atual  : 25/03/2024
+Var
+// Seção de Declarações das variáveis
+   nome: vetor [0..4] de caracter
+   sobrenome: vetor [0..4] de caracter
+   nota: vetor [0..4] de inteiro
+   indice: inteiro
+   resposta: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ ENQUANTO (indice < 4) FACA
+
+ ESCREVAL("Qual o seu nome ?")
+ LEIA(nome[indice])
+
+    indice <- indice + 1
+ ESCREVAL(nome[indice])
+  
+  ESCREVAL("Qual o seu sobrenome ?")
+ LEIA(sobrenome[indice])
+
+
+  ESCREVAL(sobrenome[indice])
+  
+  ESCREVAL("Qual a sua nota ?")
+ LEIA(nota[indice])
+
+
+  ESCREVAL(nota[indice])
+  
+ FIMENQUANTO
+ 
+ ESCREVAL("Qual aluno deseja mostrar seus dados ?")
+ LEIA(resposta)
+ ESCREVAL("Nome = " , nome[resposta])
+ ESCREVAL("Sobrenome = " , sobrenome[resposta])
+ ESCREVAL("Nota = " , nota[resposta])
+ 
+Fimalgoritmo
